@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazing Destinations</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      margin-top: 15px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    section {
+      padding: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .column {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .image {
+      max-width: 100%;
+      height: auto;
+    }
+
+    @media (max-width: 768px) {
+      section {
+        flex-direction: column;
+      }
+
+      .column {
+        padding: 10px;
+      }
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Amazing Destinations</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#service">Service</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="column">
+      <img class="image" src="image1.jpg" alt="Image 1">
+    </div>
+    <div class="column">
+      <h2>Discover New Horizons</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet velit justo, euismod cursus ipsum rutrum eu.
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc lacinia risus quis felis
+        vulputate, ac gravida elit ultricies. Nunc ac ligula ut orci ultrices posuere nec quis elit. Nunc eu sapien ac lectus
+        gravida venenatis. Phasellus tincidunt scelerisque turpis, a maximus libero blandit vel. Nullam tristique nulla nec est
+        fringilla, at bibendum tortor malesuada.
+      </p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="column">
+      <img class="image" src="image2.jpg" alt="Image 2">
+    </div>
+    <div class="column">
+      <h2>Relax and Unwind</h2>
+      <p>
+        Sed id massa sit amet mauris venenatis tristique vitae eu felis. Sed laoreet sem vel sapien ullamcorper, a scelerisque
+        purus tempus. Nulla facilisi. Nunc ut tortor vel ligula sodales blandit nec eu nunc. Nunc ultricies, orci a tincidunt
+        sagittis, urna felis volutpat tellus, vitae malesuada mi massa quis dolor. Nullam vehicula quam eu nunc pharetra, id
+        sollicitudin sapien blandit. Suspendisse fringilla erat nec lectus tristique, sit amet consectetur lectus tincidunt.
+      </p>
+    </div>
+  </section>
+
+  <section id="service">
+    <div class="column">
+      <img class="image" src="image3.jpg" alt="Image 3">
+    </div>
+    <div class="column">
+      <h2>Conquer the Peaks</h2>
+      <p>
+        Fusce non nibh ac nulla hendrerit cursus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+        turpis egestas. Aenean ultrices tincidunt velit, quis interdum odio dictum sit amet. Etiam eu felis nisi. Proin id odio
+        vel velit bibendum scelerisque. Vivamus nec dapibus odio. Phasellus euismod venenatis odio, in fermentum urna fermentum
+        vel. Vivamus posuere lacinia nunc eu fermentum.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div>Contact Us: Email - info@example.com | Phone - +1 (123) 456-7890</div>
+    <div>Follow Us: Facebook - @amazingdestinations | Instagram - @amazingdestinations | Twitter - @amazingdestinations</div>
+  </footer>
+</body>
+</html>
